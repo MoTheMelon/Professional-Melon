@@ -42,7 +42,7 @@ body{
     font-size: 2em;
 }
 p{
-    font-size: 10em;
+    font-size: 1em;
     padding: 1rem;
     border:1px solid white;
     border-radius: 10px;
@@ -55,6 +55,9 @@ p{
     animation-name:cat-idle;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
+}
+.canvas{
+    text-align: center;
 }
 @keyframes cat-idle{
     0%{

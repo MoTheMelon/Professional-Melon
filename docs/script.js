@@ -6,6 +6,10 @@ function hideLine (element){
     var line = Rect();
 }
 
+function returnText(){
+  let input = document.getElementById("textbox").value
+  alert(input)
+}
 const canvas = document.getElementById("drawing-canvas");
 const ctx = canvas.getContext("2d");
 ctx.fillStyle = "#FF0000";

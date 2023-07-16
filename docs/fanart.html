@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Art Wall</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   
+    <nav class = "nav-bar">
+        <div class="title">ProMelon</div>
+        <div class = "links">
+        <a href="index.html" onmouseover=showLine(this) onmouseout=hideLine(this)>Home</a>
+        <a href="about.html">About</a>
+        <a href="questions.html">Questions</a>
+        <a href="fanart.html">Fan Art</a>
+        </div>
+    </nav>
+    <div class = "upper-container">
+        <h1>Welcome to the fan art wall</h1>
+        <p>draw your own fan art and I'll rate/comment on it B)</p>
+    </div>
+    <div class = "canvas">
+    <canvas id="drawing-canvas" width="400" height="400" style="border:1px solid black; background-color: white;"></canvas>
+    <div>
+        <button id="saveBtn">Save</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+</div>
+    <script type="text/javascript" src = "script.js"></script>
+</body>
+</html>
