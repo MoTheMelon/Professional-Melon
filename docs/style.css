@@ -14,6 +14,10 @@ nav a:hover{
 body{
     background: cornflowerblue;
 }
+.upper-container {
+    position: relative;
+    text-align: center;
+}
 .upper-container h1{
     font-size: 2em;
 }
@@ -22,4 +26,24 @@ body{
     padding: 1rem;
     border:1px solid white;
     border-radius: 10px;
+}
+.cat{
+    display:block;
+    margin: 0 auto;
+    height: 3em;
+    width: 10em;
+    animation-name:cat-idle;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cat-idle{
+    0%{
+        background-image: url("./assets/animations/cat/melonGif1.svg")
+    }
+    50%{
+        background-image: url("./assets/animations/cat/melonGif2.svg")
+    }
+    100%{
+        background-image: url("./assets/animations/cat/melonGif3.svg")
+    }
 }
