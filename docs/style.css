@@ -5,6 +5,9 @@ nav{
     background: cornflowerblue;
 }
 nav a{
+    justify-content: right;
+    text-align: right;
+    padding: 1em;
     text-decoration: none;
     color: black;
 }
@@ -30,20 +33,20 @@ body{
 .cat{
     display:block;
     margin: 0 auto;
-    height: 3em;
-    width: 10em;
+    height: 5rem;
+    width: 16rem;
     animation-name:cat-idle;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
 @keyframes cat-idle{
     0%{
-        background-image: url("./assets/animations/cat/melonGif1.svg")
+        background-image: url("assets/animations/cat/melonGif1.svg")
     }
     50%{
-        background-image: url("./assets/animations/cat/melonGif2.svg")
+        background-image: url("assets/animations/cat/melonGif2.svg")
     }
     100%{
-        background-image: url("./assets/animations/cat/melonGif3.svg")
+        background-image: url("assets/animations/cat/melonGif3.svg")
     }
 }
